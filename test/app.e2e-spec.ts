@@ -19,6 +19,6 @@ describe('AppController (e2e)', () => {
     return request(app.getHttpServer())
       .get('/')
       .expect(200)
-      .expect('Hello World New Docker Image demo wat je zelf invult, nog een keer');
+      .expect('Hello World New Docker Image!');
   });
 });
